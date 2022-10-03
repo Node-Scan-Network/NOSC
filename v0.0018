@@ -1,0 +1,21 @@
+NumPy (Numerical Python) is an open source Python library that’s used in almost every field of science and engineering. 
+It’s the universal standard for working with numerical data in Python, and it’s at the core of the scientific Python and PyData ecosystems. 
+NumPy users include everyone from beginning coders to experienced researchers doing state-of-the-art scientific and industrial research and development. 
+
+The NumPy API is used extensively in Pandas, SciPy, Matplotlib, scikit-learn, scikit-image and most other data science and scientific Python packages.
+The NumPy library contains multidimensional array and matrix data structures (you’ll find more information about this in later sections). 
+It provides ndarray, a homogeneous n-dimensional array object, with methods to efficiently operate on it. NumPy can be used to perform a wide variety 
+of mathematical operations on arrays. It adds powerful data structures to Python that guarantee efficient calculations with arrays and matrices 
+and it supplies an enormous library of high-level mathematical functions that operate on these arrays and matrices.
+
+An introduction to the pyplot interface. Please also see Quick start guide for an overview of how Matplotlib works and Matplotlib Application 
+Interfaces (APIs) for an explanation of the trade-offs between the supported user APIs.
+Intro to pyplot matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB. 
+
+Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, 
+decorates the plot with labels, etc. In matplotlib.pyplot various states are preserved across function calls, so that it keeps track of things like 
+the current figure and plotting area, and the plotting functions are directed to the current axes (please note that "axes" here and in most places 
+in the documentation refers to the axes part of a figure and not the strict mathematical term for more than one axis).
+Note the implicit pyplot API is generally less verbose but also not as flexible as the explicit API. Most of the function calls you see here can also 
+be called as methods from an Axes object. We recommend browsing the tutorials and examples to see how this works. See Matplotlib Application Interfaces 
+(APIs) for an explanation of the trade off of the supported user APIs.
